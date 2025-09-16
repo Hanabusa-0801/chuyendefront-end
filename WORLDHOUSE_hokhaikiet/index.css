@@ -1,0 +1,110 @@
+*{
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.nenheader{
+  background:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)) ,url(images/hero_bg_3.jpg);
+  height: 600px;
+  position: relative;
+  background-position: center;
+  background-size: cover;
+  padding-top:20px ;
+}
+
+.navbar{
+  background-color: rgb(2, 47, 61);
+}
+
+.tieude{
+  color: rgb(14, 57, 73);
+}
+
+.footercontent{
+  color: rgb(107, 107, 107);
+  font-size: small;
+}
+
+.footercontent a{
+  color: rgb(107, 107, 107);
+}
+
+.footericon{
+  color: rgb(68, 67, 67);
+}
+
+.indam{
+  font-weight: bolder;
+  font-size: large;
+}
+
+.mochu{
+  color: rgb(107, 107, 107); 
+   font-size: small;
+}
+
+.cardcontent{
+  position: absolute;
+}
+
+.codinhimg{
+  position: relative;
+  top:-60px;
+  left: 35%;
+}
+
+.noidungfooter:hover{
+  font-weight: bold;
+}
+.hieuung {
+  overflow: hidden;
+  transition: all 1s;
+}
+
+.hieuung:hover img {
+  transform: scale(1.1);
+}
+.hieuung img {
+  transition: all 1s;
+}
+ .hieuung:hover {
+   box-shadow: 
+               0 0 20px rgb(78, 78, 78);
+}
+
+.hieuung2:hover img{
+  transform: translateY(-5px);
+}
+
+.hieuung2:hover h6{
+  font-weight: bold;
+}
+
+.hieuung2 img{
+  transition: all 0.5s;
+}
+
+.cardcontent:hover{
+   box-shadow: 0 0 15px rgb(78, 78, 78),
+               0 0 20px rgb(78, 78, 78);
+}
+
+.cardcontent:hover img{
+   box-shadow:0  0 15px rgb(78, 78, 78),
+              0 0 rgb(78, 78, 78);
+}
+
+.cardcontent:hover h6{
+  font-weight: bold;
+}
+
+.cathinh{
+  overflow: hidden;
+  height: 360px;
+  
+}
+
+.vetop{
+  position: fixed;
+  bottom: 50px;
+  right: 20px;  
+}

@@ -1,0 +1,46 @@
+.hero {
+    background: url('bg-header.jpg') no-repeat center center;
+    background-size: cover;
+     
+}
+
+.search-box {
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    margin-top: -150px;
+    position: relative;
+    z-index: 10;
+}
+
+ .carousel-item img {
+     height: 500px;
+     object-fit: cover;
+     border-radius: 10px;
+ }
+
+ tuyến phổ biến
+  .route-card img {
+     height: 180px;
+     object-fit: cover;
+ }
+
+ .route-card .card-body {
+     text-align: center;
+ }
+
+  /* Nav khi ở top */
+  #mainNav {
+    transition: background-color 0.3s, box-shadow 0.3s;
+  }
+
+  /* Khi cuộn xuống */
+  #mainNav.scrolled {
+    background-color: white !important;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  }
+
+  #mainNav.scrolled .nav-link,
+  #mainNav.scrolled .navbar-brand {
+    color: black !important;
+  }

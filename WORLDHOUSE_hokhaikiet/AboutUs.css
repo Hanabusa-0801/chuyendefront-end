@@ -1,0 +1,64 @@
+*{
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.nenheader{
+  background:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)) , url(images/hero_bg_3.jpg);
+  height: 600px;
+  position: relative;
+  background-position: center;
+  background-size: cover;
+  padding-top:20px ;
+}
+
+.navbar{
+  background-color: rgb(2, 47, 61);
+}
+
+.chu{
+  font-size: small;
+  color: grey;
+}
+
+.tinnhan{
+  height: 250px;
+}
+
+.tieude{
+  color: rgb(14, 57, 73);
+}
+
+.footercontent{
+  color: rgb(107, 107, 107);
+  font-size: small;
+}
+
+.footercontent a{
+  color: rgb(107, 107, 107);
+}
+
+.footericon{
+  color: rgb(68, 67, 67);
+}
+
+.noidungfooter:hover{
+  font-weight: bold;
+}
+
+.vetop{
+  position: fixed;
+  bottom: 50px;
+  right: 20px;
+}
+
+.hinhanhcontent{
+  position: relative;
+}
+
+.luoi{
+  position: absolute;
+  z-index: -1;
+  bottom: 0px;
+  width: 300px;
+  right: -45px;
+}

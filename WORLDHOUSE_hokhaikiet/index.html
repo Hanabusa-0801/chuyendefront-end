@@ -1,0 +1,561 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="nenheader mb-4">
+      <div class="container-lg">
+        <!-- navbar -->
+        <nav class="navbar navbar-expand-md navbar-dark rounded-2">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#">HouseWorld</a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarNavAltMarkup"
+              aria-controls="navbarNavAltMarkup"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+              <div class="navbar-nav ms-auto">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                <a class="nav-link" href="#">Services</a>
+                <a class="nav-link" href="AboutUs.html">About</a>
+                <a class="nav-link" href="#">Contact Us</a>
+              </div>
+            </div>
+          </div>
+        </nav>
+
+        <!-- nội dung header -->
+        <div class="d-flex justify-content-center pt-5">
+          <h3 class="pt-5 text-white">
+            Easies way to find your dream home
+            <form class="d-flex pt-3" role="search">
+              <input
+                class="form-control me-2 rounded-5"
+                type="search"
+                placeholder="Search"
+                aria-label="Search"
+              />
+              <button
+                class="btn nutsearch text-white rounded-5"
+                style="background-color: rgb(2, 47, 61)"
+                type="submit"
+              >
+                Search
+              </button>
+            </form>
+          </h3>
+        </div>
+      </div>
+    </div>
+    <!-- main -->
+    <main>
+      <div class="container-lg">
+        <div class="d-flex mt-5 mb-3 justify-content-center align-items-center">
+          <h4>Popular Properties</h4>
+          <a class="btn btn-success rounded-5 ms-auto p-2" href=""
+            >View all properties</a
+          >
+        </div>
+
+        <!-- sản phẩm -->
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-3">
+          <div class="col">
+            <div class="card hieuung">
+              <div class="cathinh">
+                <img class="imgsanpham" src="images/img_1.jpg" alt="" />
+              </div>
+
+              <div class="card-body pb-0">
+                <h5
+                  class="text-success indam"
+                  style="
+                    border-bottom: solid 3px;
+                    display: inline;
+                    padding-bottom: 10px;
+                  "
+                >
+                  $1,291,000
+                </h5>
+
+                <p class="mb-3 mochu pt-3">5232 California Fake, Ave. 21BC</p>
+                <h6 class="indam mb-3">California, USA</h6>
+                <div class="d-flex">
+                  <p class="me-4 mochu">
+                    <i class="fa-solid fa-bed me-2"></i>2 beds
+                  </p>
+                  <p class="mochu">
+                    <i class="fa-solid fa-bath me-2"></i>2 baths
+                  </p>
+                </div>
+                <a class="btn btn-success rounded-5 mb-3" href=""
+                  >See details</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card hieuung">
+              <div class="cathinh">
+                <img class="imgsanpham" src="images/img_2.jpg" alt="" />
+              </div>
+              <div class="card-body pb-0">
+                <h5
+                  class="text-success indam"
+                  style="
+                    border-bottom: solid 3px;
+                    display: inline;
+                    padding-bottom: 10px;
+                  "
+                >
+                  $1,291,000
+                </h5>
+
+                <p class="mb-3 mochu pt-3">5232 California Fake, Ave. 21BC</p>
+                <h6 class="indam mb-3">California, USA</h6>
+                <div class="d-flex">
+                  <p class="me-4 mochu">
+                    <i class="fa-solid fa-bed me-2"></i>2 beds
+                  </p>
+                  <p class="mochu">
+                    <i class="fa-solid fa-bath me-2"></i>2 baths
+                  </p>
+                </div>
+                <a class="btn btn-success rounded-5 mb-3" href=""
+                  >See details</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card hieuung">
+              <div class="cathinh">
+                <img class="imgsanpham" src="images/img_3.jpg" alt="" />
+              </div>
+              <div class="card-body pb-0">
+                <h5
+                  class="text-success indam"
+                  style="
+                    border-bottom: solid 3px;
+                    display: inline;
+                    padding-bottom: 10px;
+                  "
+                >
+                  $1,291,000
+                </h5>
+
+                <p class="mb-3 mochu pt-3">5232 California Fake, Ave. 21BC</p>
+                <h6 class="indam mb-3">California, USA</h6>
+                <div class="d-flex">
+                  <p class="me-4 mochu">
+                    <i class="fa-solid fa-bed me-2"></i>2 beds
+                  </p>
+                  <p class="mochu">
+                    <i class="fa-solid fa-bath me-2"></i>2 baths
+                  </p>
+                </div>
+                <a class="btn btn-success rounded-5 mb-3" href=""
+                  >See details</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- content giữa -->
+      <div class="bg-body-secondary mt-4">
+        <div class="container-lg">
+          <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-3 pt-2 pb-4">
+            <div class="col">
+              <div class="card hieuung2">
+                <div class="card-body text-center">
+                  <img class="w-25 mb-1" src="images/s1.png" alt="" />
+                  <h6>Our Properties</h6>
+                  <p style="color: rgb(107, 107, 107)">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. In,
+                    enim error, quasi officiis
+                  </p>
+                  <a
+                    href=""
+                    class="text-decoration-none"
+                    style="
+                      color: rgb(5, 49, 8);
+                      border-bottom: solid 3px;
+                      display: inline;
+                      padding-bottom: 10px;
+                    "
+                    data-bs-toggle="modal"
+                    data-bs-target="#exampleModal"
+                    >Learn more</a
+                  >
+                </div>
+              </div>
+            </div>
+
+            <div class="col">
+              <div class="card hieuung2">
+                <div class="card-body text-center">
+                  <img class="w-25 mb-1" src="images/s2.png" alt="" />
+                  <h6>Property for Sale</h6>
+                  <p style="color: rgb(107, 107, 107)">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. In,
+                    enim error, quasi officiis
+                  </p>
+                  <a
+                    href=""
+                    class="text-decoration-none"
+                    style="
+                      color: rgb(5, 49, 8);
+                      border-bottom: solid 3px;
+                      display: inline;
+                      padding-bottom: 10px;
+                    "
+                    data-bs-toggle="modal"
+                    data-bs-target="#exampleModal"
+                    >Learn more</a
+                  >
+                </div>
+              </div>
+            </div>
+
+            <div class="col">
+              <div class="card hieuung2">
+                <div class="card-body text-center">
+                  <img class="w-25 mb-1" src="images/s3.png" alt="" />
+                  <h6>Real Estate Agent</h6>
+                  <p style="color: rgb(107, 107, 107)">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. In,
+                    enim error, quasi officiis
+                  </p>
+                  <a
+                    href=""
+                    class="text-decoration-none"
+                    style="
+                      color: rgb(5, 49, 8);
+                      border-bottom: solid 3px;
+                      display: inline;
+                      padding-bottom: 10px;
+                    "
+                    data-bs-toggle="modal"
+                    data-bs-target="#exampleModal"
+                    >Learn more</a
+                  >
+                </div>
+              </div>
+            </div>
+
+            <div class="col">
+              <div class="card hieuung2">
+                <div class="card-body text-center">
+                  <img class="w-25 mb-1" src="images/s2.png" alt="" />
+                  <h6>House for Sale</h6>
+                  <p style="color: rgb(107, 107, 107)">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. In,
+                    enim error, quasi officiis
+                  </p>
+                  <a
+                    href=""
+                    class="text-decoration-none"
+                    style="
+                      color: rgb(5, 49, 8);
+                      border-bottom: solid 3px;
+                      display: inline;
+                      padding-bottom: 10px;
+                    "
+                    data-bs-toggle="modal"
+                    data-bs-target="#exampleModal"
+                    >Learn more</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- content dưới -->
+      <div class="bg-light mt-1">
+        <div class="container-lg text-center">
+          <div class="row mb-5">
+            <div class="col-lg-2"></div>
+            <div class="col-lg-8">
+              <h3>Our Agents</h3>
+              <p style="font-size: small; color: rgb(107, 107, 107)">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vel
+                natus ipsum placeat voluptatum accusamus sapiente, ex odit.
+                Corporis, unde. Excepturi aliquid aliquid Excepturi aliquid
+              </p>
+            </div>
+            <div class="col-lg-2"></div>
+          </div>
+          <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-5">
+            <div class="col">
+              <div class="card cardcontent">
+                <div class="card-body text-center">
+                  <img
+                    class="codinhimg w-25 d-flex justify-content-center align-items-center rounded-circle"
+                    src="images/person_1-min.jpg"
+                    alt=""
+                  />
+                  <h6 style="font-weight: bolder mb-0">
+                    James Doe <br />
+                    <span
+                      style="
+                        font-weight: normal;
+                        color: rgb(107, 107, 107);
+                        font-size: small;
+                      "
+                      >Real Estate Agent</span
+                    >
+                  </h6>
+                  <p class="mochu">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                    Adipisci aliquid vero suscipit quaerat
+                  </p>
+                  <div>
+                    <i
+                      class="fa-brands fa-pinterest d-inline-flex justify-content-center align-items-center rounded-circle p-2 bg-primary"
+                    ></i>
+                    <i
+                      class="fa-brands fa-twitter d-inline-flex justify-content-center align-items-center rounded-circle p-2 bg-primary"
+                    ></i>
+                    <i
+                      class="fa-brands fa-facebook d-inline-flex justify-content-center align-items-center rounded-circle p-2 bg-primary"
+                    ></i>
+                    <i
+                      class="fa-brands fa-dribbble d-inline-flex justify-content-center align-items-center rounded-circle p-2 bg-primary"
+                    ></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col">
+              <div class="card cardcontent">
+                <div class="card-body text-center">
+                  <img
+                    class="codinhimg w-25 d-flex justify-content-center align-items-center rounded-circle"
+                    src="images/person_2-min.jpg"
+                    alt=""
+                  />
+                  <h6 style="font-weight: bolder mb-0">
+                    Jean Smith <br />
+                    <span
+                      style="
+                        font-weight: normal;
+                        color: rgb(107, 107, 107);
+                        font-size: small;
+                      "
+                      >Real Estate Agent</span
+                    >
+                  </h6>
+                  <p class="mochu">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                    Adipisci aliquid vero suscipit quaerat
+                  </p>
+                  <div>
+                    <i
+                      class="fa-brands fa-pinterest d-inline-flex justify-content-center align-items-center rounded-circle p-2 bg-primary"
+                    ></i>
+                    <i
+                      class="fa-brands fa-twitter d-inline-flex justify-content-center align-items-center rounded-circle p-2 bg-primary"
+                    ></i>
+                    <i
+                      class="fa-brands fa-facebook d-inline-flex justify-content-center align-items-center rounded-circle p-2 bg-primary"
+                    ></i>
+                    <i
+                      class="fa-brands fa-dribbble d-inline-flex justify-content-center align-items-center rounded-circle p-2 bg-primary"
+                    ></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col pb-2">
+              <div class="card cardcontent">
+                <div class="card-body text-center">
+                  <img
+                    class="codinhimg w-25 d-flex justify-content-center align-items-center rounded-circle"
+                    src="images/person_3-min.jpg"
+                    alt=""
+                  />
+                  <h6 style="font-weight: bolder mb-0">
+                    Alicia Huston<br />
+                    <span
+                      style="
+                        font-weight: normal;
+                        color: rgb(107, 107, 107);
+                        font-size: small;
+                      "
+                      >Real Estate Agent</span
+                    >
+                  </h6>
+                  <p class="mochu">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                    Adipisci aliquid vero suscipit quaerat
+                  </p>
+                  <div>
+                    <i
+                      class="fa-brands fa-pinterest d-inline-flex justify-content-center align-items-center rounded-circle p-2 bg-primary"
+                    ></i>
+                    <i
+                      class="fa-brands fa-twitter d-inline-flex justify-content-center align-items-center rounded-circle p-2 bg-primary"
+                    ></i>
+                    <i
+                      class="fa-brands fa-facebook d-inline-flex justify-content-center align-items-center rounded-circle p-2 bg-primary"
+                    ></i>
+                    <i
+                      class="fa-brands fa-dribbble d-inline-flex justify-content-center align-items-center rounded-circle p-2 bg-primary"
+                    ></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <!-- footer -->
+    <footer class="bg-body-secondary mt-5 text-center text-lg-start">
+      <div class="container-lg pt-5">
+        <div class="row">
+          <div class="footercontent col-lg-4">
+            <p class="tieude">CONTACT</p>
+            <p class="noidungfooter" style="margin-bottom: 15px">
+              43 Calmette Rd. Baltemoer, Cali 3910
+            </p>
+            <p
+              class="noidungfooter"
+              style="margin-bottom: 5px; text-decoration: underline"
+            >
+              +1(123)-456-7890
+            </p>
+            <p
+              class="noidungfooter"
+              style="margin-bottom: 5px; text-decoration: underline"
+            >
+              +1(123)-456-7890
+            </p>
+            <p
+              class="noidungfooter"
+              style="margin-bottom: 5px; text-decoration: underline"
+            >
+              hokhaikiet@gmail.com
+            </p>
+          </div>
+          <div class="col-lg-4">
+            <div class="row">
+              <p class="tieude">SOURCES</p>
+              <div class="footercontent col-lg-6 d-flex flex-column">
+                <a class="noidungfooter" style="margin-bottom: 5px" href=""
+                  >About Us</a
+                >
+                <a class="noidungfooter" style="margin-bottom: 5px" href=""
+                  >Services</a
+                >
+                <a class="noidungfooter" style="margin-bottom: 5px" href=""
+                  >Vision</a
+                >
+                <a class="noidungfooter" style="margin-bottom: 5px" href=""
+                  >Privacy
+                </a>
+              </div>
+              <div class="footercontent col-lg-6 d-flex flex-column">
+                <a class="noidungfooter" style="margin-bottom: 5px" href=""
+                  >Partners</a
+                >
+                <a class="noidungfooter" style="margin-bottom: 5px" href=""
+                  >Business</a
+                >
+                <a class="noidungfooter" style="margin-bottom: 5px" href=""
+                  >Careers</a
+                >
+                <a class="noidungfooter" style="margin-bottom: 5px" href=""
+                  >Creative</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="footercontent col-lg-4 d-flex flex-column">
+            <p class="tieude">LINKS</p>
+            <a class="noidungfooter" style="margin-bottom: 5px" href=""
+              >Our Vision</a
+            >
+            <a class="noidungfooter" style="margin-bottom: 5px" href=""
+              >About us</a
+            >
+            <a class="noidungfooter" style="margin-bottom: 5px" href=""
+              >Contact us</a
+            >
+            <div class="footericon">
+              <i
+                class="fa-brands fa-instagram d-inline-flex justify-content-center align-items-center rounded-3 p-2 bg-secondary"
+              ></i>
+              <i
+                class="fa-brands fa-twitter d-inline-flex justify-content-center align-items-center rounded-3 p-2 bg-secondary"
+              ></i>
+              <i
+                class="fa-brands fa-facebook d-inline-flex justify-content-center align-items-center rounded-3 p-2 bg-secondary"
+              ></i>
+              <i
+                class="fa-brands fa-linkedin d-inline-flex justify-content-center align-items-center rounded-3 p-2 bg-secondary"
+              ></i>
+              <i
+                class="fa-brands fa-pinterest d-inline-flex justify-content-center align-items-center rounded-3 p-2 bg-secondary"
+              ></i>
+              <i
+                class="fa-brands fa-dribbble d-inline-flex justify-content-center align-items-center rounded-3 p-2 bg-secondary"
+              ></i>
+            </div>
+          </div>
+        </div>
+
+        <p class="footercontent d-flex justify-content-center mt-3 pb-3">
+          Copyright &copy; . All Rights Reserved. — Designed by
+          <span style="text-decoration: underline" class="ms-1"> HoKiet</span>
+        </p>
+      </div>
+    </footer>
+
+    <!-- QUAY LẠI ĐẦU TRANG -->
+    <a href="" class="vetop btn btn-success rounded-5 text-center">
+      <i class="bi bi-arrow-up-short"></i>
+    </a>
+  </body>
+</html>
